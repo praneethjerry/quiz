@@ -608,6 +608,460 @@ const questions = [
     "question": "Which is the invalid command in SQL?",
     "options": ["Revoke", "Join", "Fetch", "Like"],
     "answer": "Fetch"
+  },{
+    "section": "PLSQL",
+    "question": "PL/SQL stands for:",
+    "options": ["Programming Language/SQL", "Procedural Language/SQL", "Portable Language/SQL", "None of the above"],
+    "answer": "Procedural Language/SQL"
+  },
+  {
+    "section": "PLSQL",
+    "question": "Which datatypes can be used with a RECORD type?",
+    "options": ["NUMBER, VARCHAR2", "%TYPE, OR S%ROWTYPE", "REF, CURSOR", "BothA&B"],
+    "answer": "BothA&B"
+  },
+  {
+    "section": "PLSQL",
+    "question": "In PL/SQL, a warning or error condition is called an exception.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "section": "PLSQL",
+    "question": "Nulls in PL/SQL can be assigned and equated with anything, including itself.",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "section": "PLSQL",
+    "question": "What type of join is used in the following statement? SELECT column_name(s) FROM table1 T1, table2 T2 WHERE condition;",
+    "options": ["Self Join", "Inner Join", "Outer Join", "Left Outer Join"],
+    "answer": "Inner Join"
+  },
+  {
+    "section": "PLSQL",
+    "question": "A PL/SQL question involving global variables and local variables.",
+    "options": ["95,95", "95,195", "195,195", "Error"],
+    "answer": "Error"
+  },
+  {
+    "section": "PLSQL",
+    "question": "In PL/SQL, the upward-to-lower flow in a loop is called...?",
+    "options": ["Inverse", "Reverse", "Backward", "None"],
+    "answer": "Reverse"
+  },
+  {
+    "section": "PLSQL",
+    "question": "Which are the types of conditional statements in PL/SQL?",
+    "options": [
+      "IF THEN END IF, IF THEN ELSE END IF, IF THEN ELSEIF END IF",
+      "IF THEN END IF, IF THEN ELSE END IF, IF THEN ELSIF END IF",
+      "IF THEN END IF, IF THEN ELSE END, IF THEN ELSEIF END",
+      "IF THEN END IF, IF THEN ELSE END, IF THEN ELSIF END"
+    ],
+    "answer": "IF THEN END IF, IF THEN ELSE END IF, IF THEN ELSIF END IF"
+  },
+  {
+    "section": "PLSQL",
+    "question": "Given sales data from multiple stores: Store A: 300 Store B: 200 Store C: 100 Store D: NULL. What is the average sales?",
+    "options": ["600/3 = 200", "600/4 = 150", "Error"],
+    "answer": "600/3 = 200"
+  },
+  {
+    "section": "PLSQL",
+    "question": "What is the output of the following query? SELECT LEFT('Welcome to PLSQL', 3);",
+    "options": ["Wel", "Error", "SQL", "We"],
+    "answer": "Wel"
+  },
+  {
+    "section": "PLSQL",
+    "question": "How many nested IF clauses can be included within an IF clause?",
+    "options": ["1", "0", "15", "Any number"],
+    "answer": "Any number"
+  },
+  {
+    "section": "PLSQL",
+    "question": "Arrays in other languages become varrays in PL/SQL.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "section": "PLSQL",
+    "question": "A collection is an ordered group of elements, all of the same type.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "section": "PLSQL",
+    "question": "A function called from SQL statements must obey certain rules meant to control side effects.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "section": "PLSQL",
+    "question": "The DBMS_SQL package should be used in which of the following situations?",
+    "options": [
+      "There is an unknown number of input or output variables, such as the number of column values returned by a query that are used in a dynamic SQL statement.",
+      "The dynamic code is too large to fit inside a 32K bytes VARCHAR2 variable.",
+      "BothA&B",
+      "None of the above"
+    ],
+    "answer": "BothA&B"
+  },{
+    "section": "PLSQL",
+    "question": "How many attributes does every explicit cursor and cursor variable have?",
+    "options": ["3", "2", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "section": "PLSQL",
+    "question": "Which operator returns TRUE if a subquery returns at least one row?",
+    "options": ["EXISTS", "IN", "IS NULL", "LIKE"],
+    "answer": "EXISTS"
+  },
+  {
+    "section": "PLSQL",
+    "question": "Which of the following is used to define code that is executed/fired when certain actions or events occur?",
+    "options": ["Replace", "Keyword", "Trigger", "Cursor"],
+    "answer": "Trigger"
+  },
+  {
+    "section": "PLSQL",
+    "question": "Which parameter acts like a constant inside the subprogram?",
+    "options": ["IN", "OUT", "BothA&B", "None of the above"],
+    "answer": "IN"
+  },
+  {
+    "section": "PLSQL",
+    "question": "Which statement lets you create standalone functions that are stored in an Oracle database?",
+    "options": ["SQL CREATE PROCEDURE", "SQL CREATE FUNCTION", "BothA&B", "None of the above"],
+    "answer": "SQL CREATE FUNCTION"
+  },
+  {
+    "section": "PLSQL",
+    "question": "PL/SQL packages are schema objects that group logically related PL/SQL types, variables, and subprograms.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "section": "PLSQL",
+    "question": "What is the clause required in a function body to return a variable?",
+    "options": ["RETURN", "RETURN VARCHAR2(20)", "RETURN VARCHAR2"],
+    "answer": "RETURN"
+  },
+  {
+    "section": "PLSQL",
+    "question": "A cursor should be declared in the BEGIN block in PL/SQL.",
+    "options": ["False", "True"],
+    "answer": "False"
+  },
+  {
+    "section": "PLSQL",
+    "question": "PL/SQL provides a feature to handle exceptions in a PL/SQL block known as exception handling.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "section": "PLSQL",
+    "question": "The WRAP command is used to encrypt a PL/SQL application.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "section": "PLSQL",
+    "question": "Which exception is also known as an Oracle named exception handler?",
+    "options": ["Predefined Exception", "Internal Exception", "User-defined Exception", "None of the above"],
+    "answer": "Predefined Exception"
+  },
+  {
+    "section": "PLSQL",
+    "question": "Which package lets you use database triggers to alert an application when specific database values change?",
+    "options": ["DBMS_OUTPUT", "DBMS_ALERT", "DBMS_PIPE", "All of the above"],
+    "answer": "DBMS_ALERT"
+  },{
+    "section": "Java",
+    "question": "Select the valid statement.",
+    "options": [
+      "char[] ch = new char(5);",
+      "char[] ch = new char[5];",
+      "char[] ch = new char();",
+      "char[] ch = new char[];"
+    ],
+    "answer": "char[] ch = new char[5];"
+  },
+  {
+    "section": "Java",
+    "question": "Automatic type conversion is not possible in which case?",
+    "options": ["Byte to int", "Int to long", "Long to int", "Short to int"],
+    "answer": "Long to int"
+  },
+  {
+    "section": "Java",
+    "question": "What is the size of float and double in Java?",
+    "options": ["32 and 64", "32 and 32", "64 and 64", "64 and 32"],
+    "answer": "32 and 64"
+  },
+  {
+    "section": "Java",
+    "question": "Number of primitive data types in Java are?",
+    "options": ["6", "7", "8", "9"],
+    "answer": "8"
+  },
+  {
+    "section": "Java",
+    "question": "Predict the output of the program: String str = \"I like Java\"; System.out.println(str.length());",
+    "options": ["12", "11", "10", "9"],
+    "answer": "11"
+  },
+  {
+    "section": "Java",
+    "question": "Predict the output of the program: String s = {\"hybernate\", \"java\", \"object\"}; Arrays.sort(s); for(String k : s) { System.out.println(k); }",
+    "options": [
+      "java hybernate object",
+      "hybernate java object",
+      "hybernate object java",
+      "object java hibernate"
+    ],
+    "answer": "hybernate java object"
+  },
+  {
+    "section": "Java",
+    "question": "Predict the output of the program: char ch = 127; ch++; System.out.println(ch + \" =\" + (int)ch);",
+    "options": [
+      "compilation error",
+      "?=128",
+      "garbage value = -128",
+      "none of the above"
+    ],
+    "answer": "garbage value = -128"
+  },
+  {
+    "section": "Java",
+    "question": "_____ is also known as a Static variable.",
+    "options": ["class variable", "instance variable", "local variable", "all of the above"],
+    "answer": "class variable"
+  },
+  {
+    "section": "Java",
+    "question": "Object includes?",
+    "options": ["Attributes", "Behaviour", "Both", "None"],
+    "answer": "Both"
+  },
+  {
+    "section": "Java",
+    "question": "To find the length of the string:",
+    "options": ["a.length;", "a.length()"],
+    "answer": "a.length()"
+  },
+  {
+    "section": "Java",
+    "question": "Which operator gives a result if no condition satisfies?",
+    "options": ["IN", "OR", "NOT", "AND"],
+    "answer": "NOT"
+  },
+  {
+    "section": "Java",
+    "question": "Which is not the correct declaration?",
+    "options": ["inta_1", "int1_a", "int Al", "None"],
+    "answer": "int1_a"
+  },
+  {
+    "section": "Java",
+    "question": "Tick the correct one:",
+    "options": [
+      "Java is platform-independent",
+      "JVM is platform-dependent",
+      "JVM converts bytecode into machine-level code",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "section": "Java",
+    "question": "Given the code snippet: static int a = 1; void Inc() { a++; System.out.println(a); } Inc(); Inc();",
+    "options": ["1,1", "1,2", "2,3", "2,2"],
+    "answer": "2,3"
+  },
+  {
+    "section": "Java",
+    "question": "Which among the following falls under key elements of programming?",
+    "options": [
+      "Good analytical skills",
+      "Declarative knowledge",
+      "Imperative knowledge",
+      "Abstraction knowledge in programming",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "section": "Java",
+    "question": "What is the extension of Java code files?",
+    "options": [".java", ".class", "Both1and2", ".txt"],
+    "answer": ".java"
+  },
+  {
+    "section": "Java",
+    "question": "Which is not an OOP concept?",
+    "options": ["Compilation", "Polymorphism", "Encapsulation", "Inheritance"],
+    "answer": "Compilation"
+  },
+  {
+    "section": "Java",
+    "question": "Select the valid statement to declare and initialize an array.",
+    "options": [
+      "int[] A=0;",
+      "int[] A = [1,2,3];",
+      "int[] A = (1,2,3);",
+      "int[] A = {1,2,3};"
+    ],
+    "answer": "int[] A = {1,2,3};"
+  },
+  {
+    "section": "Java",
+    "question": "Arrays in Java are:",
+    "options": ["Object references", "Objects", "Primitive data type", "None"],
+    "answer": "Objects"
+  },
+  {
+    "section": "Java",
+    "question": "Identify the correct definition of a package.",
+    "options": [
+      "A package is a collection of editing tools",
+      "A package is a collection of classes",
+      "A package is a collection of classes and interfaces",
+      "A package is a collection of interfaces"
+    ],
+    "answer": "A package is a collection of classes and interfaces"
+  },{
+    "section": "Java",
+    "question": "In which of the following is the toString() method defined?",
+    "options": ["java.lang.Object", "java.lang.String", "java.util", "None"],
+    "answer": "java.lang.Object"
+  },
+  {
+    "section": "Java",
+    "question": "What is the output of the following code?\nimport java.util.Scanner;\npublic class Solution {\nprivate String name = \"TATA\";\npublic static void main(String[] args) {\nSolution t = (Solution) new Object();\nSystem.out.println(t.name);\n}}",
+    "options": ["Runtime error", "TATA", "Compile error", "None of the above"],
+    "answer": "Runtime error"
+  },
+  {
+    "section": "Java",
+    "question": "What is the output of the following code?\npublic static void main(String[] args) {\nint var1 = 1;\nif (var1)\nSystem.out.println(\"Inside If Condition\");\n}",
+    "options": ["Inside If Condition", "Does not print anything", "Compilation error", "Runtime error"],
+    "answer": "Compilation error"
+  },
+  {
+    "section": "Java",
+    "question": "What is the output of the following code?\npublic static void main(String[] args) {\nint var1;\nif (var1 == 0)\nSystem.out.println(\"Inside If Condition\");\n}",
+    "options": ["Inside If Condition", "Does not print anything", "Compilation error", "Runtime error"],
+    "answer": "Compilation error"
+  },
+  {
+    "section": "Java",
+    "question": "Which modifier can be used to prevent any method or attribute from being visible to external classes?",
+    "options": ["Private", "Public", "Protected", "Default"],
+    "answer": "Private"
+  },
+  {
+    "section": "Java",
+    "question": "Which modifier can be used to restrict a method or attribute from being visible outside its package?",
+    "options": ["Private", "Public", "Protected", "Default (No modifier)"],
+    "answer": "Default (No modifier)"
+  },
+  {
+    "section": "Java",
+    "question": "If a package name contains more than one word, the words must be separated by...",
+    "options": ["Comma", "Dot", "Hyphen", "underscore"],
+    "answer": "underscore"
+  },
+  {
+    "section": "Java",
+    "question": "Which component is used to compile, debug, and execute a Java program?",
+    "options": ["JIT", "JRE", "JVM", "JDK"],
+    "answer": "JDK"
+  },
+  {
+    "section": "Java",
+    "question": "What is the extension of compiled Java classes?",
+    "options": [".java", ".txt", ".class", ".exe"],
+    "answer": ".class"
+  },
+  {
+    "section": "Java",
+    "question": "Which of these cannot be used as a variable name in Java?",
+    "options": ["Identifier & keyword", "Keyword", "Identifier", "None of these"],
+    "answer": "Keyword"
+  },
+  {
+    "section": "Java",
+    "question": "What does the expression `expression1 ? expression2 : expression3` return?",
+    "options": ["Float", "Integer", "Boolean", "String"],
+    "answer": "Boolean"
+  },
+  {
+    "section": "Java",
+    "question": "Which of these is a long data type literal?",
+    "options": ["0x99fffa", "0x99fffL", "99671246", "99671246L"],
+    "answer": "0x99fffL"
+  },
+  {
+    "section": "Java",
+    "question": "Which of these is the superclass of every class in Java?",
+    "options": ["String class", "Object class", "Abstract class", "ArrayList class"],
+    "answer": "Object class"
+  },
+  {
+    "section": "Java",
+    "question": "Which of these keywords can be used to prevent inheritance of a class?",
+    "options": ["Constant", "Class", "Super", "Final"],
+    "answer": "Final"
+  },
+  {
+    "section": "Java",
+    "question": "What is the output of the following code?\nimport java.util.Scanner;\npublic class Solution {\npublic static void main(String[] args) {\ndouble d1 = 50; float d2 = 10;\nfloat d3 = d1 / d2;\nSystem.out.println(d3);\n}}",
+    "options": ["Runtime error", "5.0", "Compile error", "5.0f"],
+    "answer": "Compile error"
+  },
+  {
+    "section": "Java",
+    "question": "Which of the following is correct about JVM?",
+    "options": [
+      "JVM is responsible for converting bytecode to machine-specific code",
+      "JVM is platform-dependent and provides core Java functionality",
+      "Both a and b",
+      "None of these"
+    ],
+    "answer": "Both a and b"
+  },
+  {
+    "section": "Java",
+    "question": "Strings in Java are mutable.",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "section": "Java",
+    "question": "What is the output of the following code?\nimport java.util.Scanner;\npublic class Solution {\npublic static void main(String[] args) {\nbyte b = 200;\nSystem.out.println(b);\n}}",
+    "options": ["200", "Compile error", "Runtime error", "-127"],
+    "answer": "Compile error"
+  },
+  {
+    "section": "Java",
+    "question": "What is Runnable?",
+    "options": ["Abstract class", "Interface", "Class", "Method"],
+    "answer": "Interface"
+  },
+  {
+    "section": "Java",
+    "question": "Identify the infinite loop.",
+    "options": [
+      "for(;;)",
+      "for(int i = 0; i < 1; i--)",
+      "for(int i = 0; ; i++)",
+      "All of the above"
+    ],
+    "answer": "All of the above"
   }
 ];
 
