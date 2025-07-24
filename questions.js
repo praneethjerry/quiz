@@ -8,6 +8,120 @@ const questions = [
   },
   {
     section: "UI",
+    question: "Which UI statement is used to extract data from a database?",
+    options: ["GET", "SELECT", "OPEN", "EXTRACT"],
+    answer: "SELECT"
+  },
+  {
+    section: "Unix",
+    question: "Which command is used to list all files, including hidden ones, in Unix?",
+    options: ["ls", "ls -a", "ls -l", "list"],
+    answer: "ls -a"
+  },
+  {
+    section: "UI",
+    question: "",
+    options: [],
+    answer: ""
+  }, {
+    section: "Java",
+    question: "Which of the following is the full-featured software developer kit for Java?",
+    options: ["JRE", "IDE", "JDK"],
+    answer: "JDK"
+  },
+  {
+    section: "Java",
+    question: "You must use an IDE to write Java programs.",
+    options: ["FALSE", "TRUE"],
+    answer: "FALSE"
+  },
+  {
+    section: "Java",
+    question: "To check which version of Java your terminal is using, what do you type in the command line?",
+    options: [
+      "/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk",
+      "/usr/libexec/java_home -V",
+      "java -version/jdk_home -V",
+      "JAVA_HOME=`/usr/libexec/java-home -v 11.0`"
+    ],
+    answer: "/usr/libexec/java_home -V"
+  },
+  {
+    section: "Java",
+    question: "What command do you type in the terminal to get a quick introduction of the JShell?",
+    options: [
+      "/intro int x = 8",
+      "/help JShell tool intro",
+      "jshell> /help intro",
+      "/intro JShell"
+    ],
+    answer: "jshell> /help intro"
+  },
+  {
+    section: "Java",
+    question: "Which runtime system starts your program by calling its _____ function first?",
+    options: ["main", "hello", "print", "iterative"],
+    answer: "main"
+  },
+  {
+    section: "Java",
+    question: "Which of the following is true about the JShell?",
+    options: [
+      "JShell lives in the terminal",
+      "all of these choices",
+      "JShell allows you to see the results of the your code quickly without a bunch of overhead",
+      "The /help command lets you learn more about how to interact with Jshell"
+    ],
+    answer: "all of these choices"
+  },
+  {
+    section: "Java",
+    question: "How do you get access to the code you're developing in IDE?",
+    options: [
+      "Click into .idea under the navigation pane in the top left corner of the screen.",
+      "Click into source (src) under the navigation pane in the top left corner of the screen.",
+      "Click into .localized under the navigation pane in the top left corner of the screen.",
+      "Click into Desktop.iml under the navigation pane in the top left corner of the screen."
+    ],
+    answer: "Click into source (src) under the navigation pane in the top left corner of the screen."
+  },
+  
+  {
+    section: "Java",
+    question: "What does IDE stand for?",
+    options: [
+      "Interactive Developer Ecosystem",
+      "Integrated Developer Ecosystem",
+      "Interactive Development Environment",
+      "Integrated Development Environment"
+    ],
+    answer: "Integrated Development Environment"
+  },
+  {
+    section: "Java",
+    question: "What Java class allows us to get input from the user?",
+    options: ["System.in", "The Scanner class", "sc"],
+    answer: "The Scanner class"
+  },
+  {
+    section: "Java",
+    question: "We describe the types of data an object has in a Class with _____?",
+    options: ["functions", "properties or attributes", "instances"],
+    answer: "properties or attributes"
+  },
+  {
+    section: "Java",
+    question: "What is the syntactically correct way to declare a variable in Java?",
+    options: ["numberOfPeople;", "int numberOfPeople;", "var numberOfPeople;"],
+    answer: "int numberOfPeople;"
+  },
+  {
+    section: "Java",
+    question: "_____ in real life can be represented in code.",
+    options: ["Sequences", "Attributes", "Instances", "Anything"],
+    answer: "Anything"
+  },{
+    section: "UI",
     question: "What is the smallest header in HTML by default?",
     options: ["H1", "H2", "H6", "H4"],
     answer: "H6"
@@ -18,12 +132,7 @@ const questions = [
     options: ["White", "Gray", "Black", "All of the above"],
     answer: "All of the above"
   },
-  {
-    section: "UI",
-    question: "What is the correct syntax to write an HTML comment?",
-    options: ["<!-- Comment -->", "// Comment", "#Comment", "/* Comment */"],
-    answer: "<!-- Comment -->"
-  },
+  
   
   {
     section: "UI",
@@ -78,31 +187,11 @@ const questions = [
     options: ["Left", "Right", "Center", "None of the above"],
     answer: "None of the above"
   },
-  {
-    section: "UI",
-    question: "Which is the invalid field in HTML5?",
-    options: ["Day", "Date", "Datetime", "Month"],
-    answer: "Datetime"
-  },
-  {
-    section: "UI",
-    question: "How do you emphasize text in HTML?",
-    options: ["<strong>", "<em>", "<b>", "<mark>"],
-    answer: "<em>"
-  },
-  {
-    section: "UI",
-    question: "Which tag is not used for formatting text?",
-    options: ["<b>", "<p>", "<strong>", "<i>"],
-    answer: "<p>"
-  },
+ 
   
-  {
-    section: "UI",
-    question: "How to create an ordered list in HTML?",
-    options: ["<ul>", "<ol>", "<href>", "<b>"],
-    answer: "<ol>"
-  },
+  
+  
+  
   {
     section: "UI",
     question: "What are some valid character sets available?",
@@ -145,29 +234,12 @@ const questions = [
     options: ["No action required", "Compile the script", "Update the execute permission of the script", "Add shebang line"],
     answer: "Update the execute permission of the script"
   },
-  {
-    section: "UI",
-    question: "The <caption> tag is used with:",
-    options: ["Image", "Table", "Both", "None"],
-    answer: "Table"
-  },
+  
   {
     section: "UI",
     question: "What will the result of var x = 100 + 5 ** 3 be in JS?",
     options: ["125", "225", "NaN", "Error"],
     answer: "225"
-  },
-  {
-    section: "UI",
-    question: "Given the following HTML: <p>Top news</p> <blockquote url: Hindu news.com></blockquote>. Will the blockquote display?",
-    options: ["True", "False"],
-    answer: "True"
-  },
-  {
-    section: "UI",
-    question: "Which tag is used to emphasize the text?",
-    options: ["<b>", "<strong>", "<em> or <emph>", "<mark>"],
-    answer: "<em> or <emph>"
   },
   {
     section: "UI",
@@ -183,28 +255,8 @@ const questions = [
     answer: "Color: #o0ooff"
   },
   
-  {
-    section: "UI",
-    question: "Which HTML tag is used to display a progress bar?",
-    options: ["<progress>", "<bar>", "<meter>", "<track>"],
-    answer: "<progress>"
-  },{
-    section: "UI",
-    question: "Given the following HTML: <img src='sky.jpg' width='100' height='100' opacity='0.25'> What will happen?",
-    options: [
-      "Display with mentioned width and height",
-      "Display image as watermark",
-      "None of these",
-      "Opacity attribute is invalid in HTML"
-    ],
-    answer: "Display image as watermark"
-  },
-  {
-    section: "UI",
-    question: "Appearance of the <ins> tag?",
-    options: ["Italics", "Underline", "Bold", "Strikethrough"],
-    answer: "Underline"
-  },
+
+  
   {
     section: "UI",
     question: "A link can be an image or any other HTML element?",
@@ -228,17 +280,7 @@ const questions = [
     ],
     answer: "Drawing lines, graphics, etc."
   },
-  {
-    section: "UI",
-    question: "What is <span> used for?",
-    options: [
-      "To select inline block",
-      "To group elements for styling purposes",
-      "To draw borders",
-      "To insert scripts"
-    ],
-    answer: "To group elements for styling purposes"
-  },
+  
   {
     section: "UI",
     question: "Which block of code will be executed?",
@@ -250,29 +292,14 @@ const questions = [
     ],
     answer: "p{/* comment */ color: red; }"
   },
-  {
-    section: "UI",
-    question: "Which block is used to style the <h1> tag with class 'Xplore'? <h1 class='Xplore'>",
-    options: [
-      "h1 > .Xplore {....}",
-      "h1{....}",
-      "h1.xplore {....}",
-      ".h1.Xplore {....}"
-    ],
-    answer: "h1.xplore {....}"
-  },
+  
   {
     section: "UI",
     question: "JavaScript runs using a script engine?",
     options: ["True", "False"],
     answer: "True"
   },
-  {
-    section: "UI",
-    question: "Given the following code: <p class='abc'></p> <script> var x; document.getElementByClass('abc').innerHTML = x; </script> What is the output?",
-    options: ["NaN", "0", "1", "Error"],
-    answer: "Error"
-  },
+  
   {
     section: "UI",
     question: "Which statement is correct in JavaScript?",
@@ -295,28 +322,8 @@ const questions = [
     ],
     answer: "background-render"
   },
-  {
-    section: "UI",
-    question: "Given the following HTML: <p class='A'>ABC</p> How do you style 'ABC'?",
-    options: [
-      ".A {color: red;}",
-      "#A {color: red;}",
-      "*A {color: red;}",
-      "A {color: red;}"
-    ],
-    answer: ".A {color: red;}"
-  },
-  {
-    section: "UI",
-    question: "Which of the following sequences of HTML tags is correct?",
-    options: [
-      "<html><head><title></title><body></body></head></html>",
-      "<html><title></title><head></head><body></body></html>",
-      "<html><head></head><body><title></title></body></html>",
-      "<html><head><title></title></head><body></body></html>"
-    ],
-    answer: "<html><head><title></title></head><body></body></html>"
-  },
+  
+  
    {
     section: "UI",
     question: "What does CSS stand for?",
@@ -339,51 +346,15 @@ const questions = [
     ],
     answer: "ID selector as #"
   },
-  {
-    section: "UI",
-    question: "In an HTML document, where is the correct place to refer to an external style sheet?",
-    options: [
-      "In the <head> section",
-      "At the end of the document",
-      "At the beginning of the document",
-      "In the <body> section"
-    ],
-    answer: "In the <head> section"
-  },
-  {
-    section: "UI",
-    question: "Which of the following tags would you use to insert JavaScript in an HTML page?",
-    options: [
-      "<script type=\"text/javascript\"></script>",
-      "<HTMLScript type=\"text/javascript\"></HTMLScript>",
-      "<JScript type=\"text/javascript\"></JScript>",
-      "<JavaScript type=\"text/javascript\"></JavaScript>"
-    ],
-    answer: "<script type=\"text/javascript\"></script>"
-  },
+  
+  
   {
     section: "UI",
     question: "The __ JavaScript is also known as server-side JavaScript.",
     options: ["Navigator", "Microsoft", "LiveWire", "Native"],
     answer: "LiveWire"
   },
-  {
-    section: "UI",
-    question: "The following code would allow you to set the background with CSS:\n<style type=\"text/css\"> body {background-color: yellow} </style>",
-    options: ["True", "False"],
-    answer: "True"
-  },
-  {
-    section: "UI",
-    question: "If para1 is the DOM object for a paragraph, what is the correct syntax to change the text within the paragraph?",
-    options: [
-      "para1.firstChild.nodeValue= \"New Text\";",
-      "para1.nodeValue=\"New Text\";",
-      "\"New Text\"?",
-      "para1.value=\"New Text\";"
-    ],
-    answer: "para1.firstChild.nodeValue= \"New Text\";"
-  },
+  
   {
     section: "UI",
     question: "How does JavaScript store the date in a Date object?",
@@ -395,17 +366,7 @@ const questions = [
     ],
     answer: "The number of milliseconds since January 1st, 1970"
   },
-  {
-    section: "UI",
-    question: "Given the following HTML:\n<h2 class=\"fruit mango\">I love fruits</h2>\nWhich statement is true?",
-    options: [
-      "It is an invalid statement in HTML.",
-      "None of the options.",
-      "It is a heading tag with a class named \"fruit mango.\"",
-      "It is a heading tag with two classes named \"fruit\" and \"mango.\""
-    ],
-    answer: "It is a heading tag with two classes named \"fruit\" and \"mango.\""
-  },
+  
   {
     section: "UI",
     question: "Which of the following CSS syntax will hide the element?",
@@ -422,30 +383,15 @@ const questions = [
     "options": ["TRUE", "FALSE", "Only in strict mode", "Depends on the browser"],
     "answer": "FALSE"
   },
-  {
-    "section": "UI",
-    "question": "Which of the following elements were added in HTML5?",
-    "options": ["<main>", "<header>", "<article>", "All of them"],
-    "answer": "All of them"
-  },
+  
   {
     "section": "UI",
     "question": "Different tags cannot share the same class.",
     "options": ["TRUE", "FALSE", "Only with JavaScript", "Only if they're siblings"],
     "answer": "FALSE"
   },
-  {
-    "section": "UI",
-    "question": "The <div> element is a block-level element.",
-    "options": ["TRUE", "FALSE", "Only in HTML5", "It depends on CSS"],
-    "answer": "TRUE"
-  },
-  {
-    "section": "UI",
-    "question": "Which option correctly represents the code for creating and initializing a string variable?",
-    "options": ["var str1=Hello;", "var str1=\"Hello\";", "var str1='Hello';", "var str1=\"Hello\"\";"],
-    "answer": "var str1=\"Hello\";"
-  },
+  
+  
   {
     "section": "UI",
     "question": "What does the display: block property result in?",
@@ -458,15 +404,211 @@ const questions = [
     "answer": "A line break between the two elements"
   },
   {
-    "section": "UI",
-    "question": "Which of the following options will open the Google website in a new window?",
+    "section": "SQL",
+    "question": "What is the full form of SQL?",
+    "options": ["Structured Query List", "Structured Query Language", "Sample Query Language", "Sequential Query Logic"],
+    "answer": "Structured Query Language"
+  },
+  {
+    "section": "SQL",
+    "question": "Which of the following is not a DDL command?",
+    "options": ["TRUNCATE", "ALTER", "CREATE", "UPDATE"],
+    "answer": "UPDATE"
+  },
+  {
+    "section": "SQL",
+    "question": "Which statement is used to delete all rows in a table without having the action logged?",
+    "options": ["DELETE", "REMOVE", "DROP", "TRUNCATE"],
+    "answer": "TRUNCATE"
+  },
+  {
+    "section": "SQL",
+    "question": "How many Primary keys can you have in a table?",
+    "options": ["Only 1", "Only 2", "Depends on number of Columns", "Depends on DBA"],
+    "answer": "Only 1"
+  },
+  {
+    "section": "SQL",
+    "question": "Which of the following is not a Constraint in SQL?",
+    "options": ["Primary Key", "Not Null", "Check", "Union"],
+    "answer": "Union"
+  },
+  {
+    "section": "SQL",
+    "question": "Choose the incorrect variable declaration from the statements below:",
     "options": [
-      "<a href=\"https://www.google.com\" target=\"_top\">Click here</a>",
-      "<a href=\"https://www.google.com\" target=\"_parent\">Click here</a>",
-      "<a href=\"https://www.google.com\" target=\"_self\">Click here</a>",
-      "<a href=\"https://www.google.com\" target=\"_blank\">Click here</a>"
+      "v_text number(10);",
+      "v_text varchar2(10) = \"Hello world\";",
+      "v_char char(1) = 'N';",
+      "v_number varchar2(10);"
     ],
-    "answer": "<a href=\"https://www.google.com\" target=\"_blank\">Click here</a>"
+    "answer": "v_text varchar2(10) = \"Hello world\";"
+  },
+  {
+    "section": "SQL",
+    "question": "Which of the following is not a valid SQL type?",
+    "options": ["FLOAT", "NUMERIC", "DECIMAL", "CHARACTER"],
+    "answer": "CHARACTER"
+  },
+  {
+    "section": "SQL",
+    "question": "Which of the following are TCL commands?",
+    "options": ["COMMIT and ROLLBACK", "UPDATE and TRUNCATE", "SELECT and INSERT", "GRANT and REVOKE"],
+    "answer": "COMMIT and ROLLBACK"
+  },
+  {
+    "section": "SQL",
+    "question": "SQL Views are also known as:",
+    "options": ["Simple tables", "Virtual tables", "Complex tables", "Actual Tables"],
+    "answer": "Virtual tables"
+  },
+  {
+    "section": "SQL",
+    "question": "Which datatype can store unstructured data in a column?",
+    "options": ["CHAR", "RAW", "NUMERIC", "TEXT"],
+    "answer": "RAW"
+  },
+  {
+    "section": "SQL",
+    "question": "Which of the following is not a valid aggregate function?",
+    "options": ["COUNT", "COMPUTE", "SUM", "MAX"],
+    "answer": "COMPUTE"
+  },
+  {
+    "section": "SQL",
+    "question": "Which of the following is not a constraint in SQL?",
+    "options": ["ISNULL", "CHECK", "PRIMARY KEY", "DEFAULT"],
+    "answer": "ISNULL"
+  },
+  {
+    "section": "SQL",
+    "question": "Which operator is used to compare a value to a specified list of values?",
+    "options": ["ANY", "BETWEEN", "ALL", "IN"],
+    "answer": "IN"
+  },
+  {
+    "section": "SQL",
+    "question": "In which of the following cases is a DML statement not executed?",
+    "options": ["When existing rows are modified.", "When a table is deleted.", "When some rows are deleted.", "All of the above"],
+    "answer": "When a table is deleted."
+  },
+  {
+    "section": "SQL",
+    "question": "Which of the following statements is true?",
+    "options": [
+      "TRUNCATE frees the table space while DELETE does not.",
+      "Both TRUNCATE and DELETE statements free the table's space.",
+      "Both TRUNCATE and DELETE statements do not free the table's space.",
+      "DELETE frees the table space while TRUNCATE does not."
+    ],
+    "answer": "TRUNCATE frees the table space while DELETE does not."
+  },
+  {
+    "section": "SQL",
+    "question": "Which of the following is also called an INNER JOIN?",
+    "options": ["SELF JOIN", "EQUIJOIN", "NON-EQUI JOIN", "None of the above"],
+    "answer": "EQUIJOIN"
+  },
+  {
+    "section": "SQL",
+    "question": "Which command makes the updates performed by the transaction permanent in the database?",
+    "options": ["ROLLBACK", "COMMIT", "TRUNCATE", "DELETE"],
+    "answer": "COMMIT"
+  },
+  {
+    "section": "SQL",
+    "question": "The COUNT function in SQL returns the number of",
+    "options": ["Unique values", "Group by values", "None", "Not null values"],
+    "answer": "Not null values"
+  },
+  {
+    "section": "SQL",
+    "question": "What operator tests a column for the absence of data?",
+    "options": ["NOT Operator", "EXISTS Operator", "IS NULL Operator", "None of the above"],
+    "answer": "IS NULL Operator"
+  },
+ 
+  {
+    "section": "SQL",
+    "question": "If we have not specified ASC or DESC after a SQL ORDER BY clause, the following is used by default:",
+    "options": ["DESC", "ASC", "There is no default value", "None of the mentioned"],
+    "answer": "ASC"
+  },
+  {
+    "section": "SQL",
+    "question": "A command that lets you change one or more fields in a table is:",
+    "options": ["INSERT", "MODIFY", "LOOK-UP", "All of the above"],
+    "answer": "MODIFY"
+  },
+  {
+    "section": "SQL",
+    "question": "Which of the following is true about the HAVING clause?",
+    "options": [
+      "Similar to the WHERE clause but is used for columns rather than groups.",
+      "Similar to the WHERE clause but is used for rows rather than columns.",
+      "Similar to the WHERE clause but is used for groups rather than rows.",
+      "Acts exactly like a WHERE clause."
+    ],
+    "answer": "Similar to the WHERE clause but is used for groups rather than rows."
+  },
+  {
+    "section": "SQL",
+    "question": "Which command is used to change the definition of a table in SQL?",
+    "options": ["CREATE", "UPDATE", "ALTER", "SELECT"],
+    "answer": "ALTER"
+  },
+  {
+    "section": "SQL",
+    "question": "CREATE TABLE Students(ROLL_NO NUMBER(5) PRIMARY KEY, NAME VARCHAR(50)); ALTER TABLE Students ADD PRIMARY KEY(ROLL_NO);",
+    "options": [
+      "Invalid statement",
+      "Table can have only one primary key",
+      "Primary key cannot be duplicated",
+      "ROLL_NO is invalid"
+    ],
+    "answer": "Table can have only one primary key"
+  },
+  {
+    "section": "SQL",
+    "question": "Which type of JOIN returns rows that do not have matching values?",
+    "options": ["Natural JOIN", "Outer JOIN", "EQUIJOIN", "All of the above"],
+    "answer": "Outer JOIN"
+  },
+  {
+    "section": "SQL",
+    "question": "Which operator is used to compare the NULL values in SQL?",
+    "options": ["Equal", "IN", "IS", "None of the Above"],
+    "answer": "IS"
+  },
+  {
+    "section": "SQL",
+    "question": "Which is NOT a type of constraint in SQL language?",
+    "options": ["FOREIGN KEY", "PRIMARY KEY", "UNIQUE", "ALTERNATE KEY"],
+    "answer": "ALTERNATE KEY"
+  },
+  {
+    "section": "SQL",
+    "question": "Which statement is used to get all data from the student table whose name starts with 'p'?",
+    "options": [
+      "SELECT * FROM student WHERE name LIKE '%p%';",
+      "SELECT * FROM student WHERE name LIKE 'p%';",
+      "SELECT * FROM student WHERE name LIKE '_p%';",
+      "SELECT * FROM student WHERE name LIKE '%p';"
+    ],
+    "answer": "SELECT * FROM student WHERE name LIKE 'p%';"
+  },
+  {
+    "section": "SQL",
+    "question": "How many types of indices are present in SQL Server?",
+    "options": ["2", "1", "3", "4"],
+    "answer": "2"
+  },
+  {
+    "section": "SQL",
+    "question": "Which is the invalid command in SQL?",
+    "options": ["Revoke", "Join", "Fetch", "Like"],
+    "answer": "Fetch"
   }
 ];
+
 
