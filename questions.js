@@ -1062,6 +1062,438 @@ const questions = [
       "All of the above"
     ],
     "answer": "All of the above"
+  },
+  ,{
+    "section": "BIZ",
+    "question": "What are the stages in the IBC approach?",
+    "options": [
+      "Introduction, Body, Cohesion",
+      "Introduction, Body, Content",
+      "Introduction, Body, Conclusion",
+      "None of the options"
+    ],
+    "answer": "Introduction, Body, Conclusion"
+  },
+  {
+    "section": "BIZ",
+    "question": "The purpose of writing is expressed by which type of question?",
+    "options": [
+      "how",
+      "when",
+      "why",
+      "who"
+    ],
+    "answer": "why"
+  },
+  {
+    "section": "BIZ",
+    "question": "The CIBI Bank requested TCS to upgrade their systems worldwide and to digitize 80% of their workflow. TCS not only completed the given work on time but also provided IT training sessions for the bank employees to get accustomed to the upgrades. What is this service termed as?",
+    "options": [
+      "Keeping commitments",
+      "Robotic service",
+      "Value-added service",
+      "Systematic service"
+    ],
+    "answer": "Value-added service"
+  },
+  {
+    "section": "BIZ",
+    "question": "Select the options that may apply while responding to an angry customer's e-mail.",
+    "options": [
+      "Acknowledge their frustration and restate it in your own words.",
+      "Align with the customer by letting them know you’ve heard and understood the issue.",
+      "Assure the customer that you will resolve the issue at the earliest.",
+      "All of the options"
+    ],
+    "answer": "All of the options"
+  },
+  {
+    "section": "BIZ",
+    "question": "He had a Masters in Business Administration. Here MBA is:",
+    "options": [
+      "Acronym",
+      "Abbreviation",
+      "Elision",
+      "All of them"
+    ],
+    "answer": "Abbreviation"
+  },
+  {
+    "section": "BIZ",
+    "question": "Stephen would be traveling home to attend his brother's wedding. What information should he exclude while drafting a mail prior to his leave?",
+    "options": [
+      "The reason behind taking leave.",
+      "The period of his absence specified by dates.",
+      "The details of the wedding as well as Stephen's means of travelling back.",
+      "An update on the current status of his work and details about the hand over of the task to a fellow associate."
+    ],
+    "answer": "The details of the wedding as well as Stephen's means of travelling back."
+  },
+  {
+    "section": "BIZ",
+    "question": "Rose chooses not to consult her colleagues while fixing a problem, as she is sure that they are too busy. Identify the mind trap.",
+    "options": [
+      "Defending prior choices",
+      "Selecting supporting information",
+      "Trap of assumptions",
+      "Trap of initial ideas"
+    ],
+    "answer": "Trap of assumptions"
+  },
+  {
+    "section": "BIZ",
+    "question": "What are the elements of a Project Status Report?",
+    "options": [
+      "Current status, Plan for next phase and Areas of concern.",
+      "Current status and Areas of concern.",
+      "Current status, Areas of concern, Suggestions and Plan for next week.",
+      "Current status, Areas of concern and Suggestions."
+    ],
+    "answer": "Current status, Plan for next phase and Areas of concern."
+  },
+  {
+    "section": "BIZ",
+    "question": "Group decision is an important element in which of the following work cultures?",
+    "options": [
+      "US, UK and Middle East.",
+      "US, UK and Australia.",
+      "India, Japan and Australia.",
+      "India, Japan and Middle East"
+    ],
+    "answer": "India, Japan and Middle East"
+  },
+  
+  {
+    "section": "BIZ",
+    "question": "List 3 aspects that will be at stake, if a major impact on business has occurred due to an outage.",
+    "options": [
+      "Sales Revenue , Brand reputation and Integrity in business",
+      "Brand reputation , Employee Utilization",
+      "Integrity in business and Sales Revenue",
+      "Employee Utilization, Brand Reputation and Sales Reveneue"
+    ],
+    "answer": "Sales Revenue , Brand reputation and Integrity in business"
+  },
+  
+   {
+    "section": "BIZ",
+    "question": "What is true about being Agile?",
+    "options": [
+      "Agile teams can never fail.",
+      "Agile is driven by action.",
+      "Agile teams do not experiment",
+      "Agile teams do not believe in rationalism."
+    ],
+    "answer": "Agile is driven by action."
+  },
+  
+  {
+    "section": "BIZ",
+    "question": "Which of the following statements regarding delegation is false?",
+    "options": [
+      "Some supervisors with a strong need for ego fulfillment try to do all the work themselves so that they get personal credit from their supervisors.",
+      "All team members should be delegated with all kinds of work with equal responsibility for only then they will get empowered.",
+      "A careful explanation of the task to be accomplished is important in successful delegation.",
+      "Skillful delegating is bound to save time for a supervisor in the long run."
+    ],
+    "answer": "All team members should be delegated with all kinds of work with equal responsibility for only then they will get empowered."
+  },
+  {
+    "section": "BIZ",
+    "question": "Linda and her close friend were involved in an unhealthy argument recently, which has caused a rift between the two. What should Linda do in this situation?",
+    "options": [
+      "Linda should ignore the issue and move on with her tasks.",
+      "Should suppress her ego and invite her friend over for a cup of coffee or dinner",
+      "Linda needs to wait for her friend to make the first move.",
+      "Linda should seek the help of a mutual friend to mediate."
+    ],
+    "answer": "Should suppress her ego and invite her friend over for a cup of coffee or dinner"
+  },
+  
+  
+  {
+    "section": "BIZ",
+    "question": "When resolving an incident, what kind of decision making skills does the operations team (application and infrastructure) adopt in addition to business impact?",
+    "options": [
+      "Risk assessment",
+      "Fact based quality",
+      "Time bound decision",
+      "Monetary impact"
+    ],
+    "answer": "Risk assessment, Fact based quality, Time bound decision, Monetary impact"
+  },
+  
+  {
+    "section": "BIZ",
+    "question": "How can one develop assertiveness?",
+    "options": [
+      "By showing empathy",
+      "By showing sympathy",
+      "By ensuring that others agree with your points",
+      "By being open to feedback",
+      "By accepting everyone's views",
+      "By respecting everyone views"
+    ],
+    "answer": "By showing empathy, By being open to feedback, By respecting everyone views"
+  },
+  {
+    "section": "BIZ",
+    "question": "Under which interpersonal skills do ‘sense of humor’ and ‘knowing when not to make jokes’ come under?",
+    "options": [
+      "Listening skills",
+      "Assertiveness",
+      "Non-verbal skills",
+      "Verbal skills",
+      "Empathy"
+    ],
+    "answer": "Empathy"
+  },
+  {
+    "section": "BIZ",
+    "question": "The best managers not only manage people, but also manage ........... and .......... Pick the most appropriate choice of words to fill.",
+    "options": [
+      "Work / Team",
+      "Colleagues / Co-workers",
+      "Team / problems",
+      "Problems / Solution"
+    ],
+    "answer": "Work / Team"
+  },
+  {
+    "section": "BIZ",
+    "question": "Peter wants to buy a new house by December 2021. This is a SMART goal.",
+    "options": [
+      "True",
+      "False",
+      "Depends on budget",
+      "Only if approved by a financial advisor"
+    ],
+    "answer": "True"
+  },
+  {
+    "section": "BIZ",
+    "question": "As a mentor, what are some of the things you will do to foster an Eclectic Mindset in your mentee?",
+    "options": [
+      "Create a culture of communication and collaboration",
+      "Create a culture of discipline",
+      "Create a culture of excellence",
+      "Create a culture of innovation and risk tasking",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "section": "BIZ",
+    "question": "Decisions made by individuals typically suffer from suspicion that the decision maker...",
+    "options": [
+      "Is irrational",
+      "Did not consult all interested parties",
+      "Did not try to analyze the situation",
+      "Is dishonest and inexperienced"
+    ],
+    "answer": "Did not consult all interested parties"
+  },
+  {
+    "section": "BIZ",
+    "question": "A worker’s acceptance of change is characteristic of what type of culture?",
+    "options": [
+      "Collaborative culture",
+      "Group / team culture",
+      "Hierarchy culture",
+      "Collective culture"
+    ],
+    "answer": "Collective culture"
+  },
+  {
+    "section": "BIZ",
+    "question": "The below two statements are related to mindfulness.\n1. It is not obscure or exotic\n2. It is evidence based",
+    "options": [
+      "True",
+      "False",
+      "Partially True",
+      "Depends on the individual"
+    ],
+    "answer": "True"
+  },
+  {
+    "section": "BIZ",
+    "question": "What is a conversational best practice with co-workers?",
+    "options": [
+      "Team Building exercises",
+      "Ergonomics",
+      "Warm-ups",
+      "Small talk"
+    ],
+    "answer": "Small talk"
+  },
+  {
+    "section": "BIZ",
+    "question": "Which of the following is/are suggested way(s) of building good relationships with customers?",
+    "options": [
+      "When a customer complains, be defensive",
+      "Place the company’s needs first",
+      "Show care and concern for the customer",
+      "Establish customer dissatisfaction goals"
+    ],
+    "answer": "Show care and concern for the customer"
+  },
+  {
+    "section": "BIZ",
+    "question": "________ is the existence of a discrepancy between existing and a desired state of affairs.",
+    "options": [
+      "Opportunity",
+      "Solution",
+      "Problem",
+      "Weakness"
+    ],
+    "answer": "Problem"
+  },
+  {
+    "section": "BIZ",
+    "question": "Which principle of persuasion is related to titles, tailors, and tune?",
+    "options": [
+      "Authority",
+      "Scarcity",
+      "Consensus",
+      "None of the options are correct"
+    ],
+    "answer": "Authority"
+  },
+  {
+    "section": "BIZ",
+    "question": "A specific type of argument that is based only on principles of logic and reasoning is called Persuasion.",
+    "options": [
+      "True",
+      "False",
+      "Depends on the audience",
+      "Only if data supports it"
+    ],
+    "answer": "True"
+  },
+  {
+    "section": "BIZ",
+    "question": "Which skill is being referred to here: It involves discussion, reaching agreements, and settling differences between people or groups?",
+    "options": [
+      "Conflict Resolution",
+      "Negotiation",
+      "Persuasion",
+      "Storytelling"
+    ],
+    "answer": "Negotiation"
+  },
+  {
+    "section": "BIZ",
+    "question": "‘Vice technique’ is a tactic of one of the following options. Identify the correct answer.",
+    "options": ["Conflict Resolution", "Negotiation", "Persuasion", "Storytelling"],
+    "answer": "Negotiation"
+  },
+  {
+    "section": "BIZ",
+    "question": ".......... is not a step in negotiation process.",
+    "options": ["Clarification / Justification", "Brainstorming / Ideation", "Evaluation / Feedback", "Planning / Getting Ready", "Behavior / Result"],
+    "answer": "Evaluation / Feedback"
+  },
+  {
+    "section": "BIZ",
+    "question": "Linda and her close friend were involved in an unhealthy argument recently, which has caused a rift between the two. What should Linda do in this situation?",
+    "options": [
+      "Should suppress her ego and invite her friend over for a cup of coffee or dinner",
+      "Linda needs to wait for her friend to make the first move",
+      "Linda should ignore the issue and move on with her tasks",
+      "Linda should seek the help of a mutual friend to mediate."
+    ],
+    "answer": "Should suppress her ego and invite her friend over for a cup of coffee or dinner"
+  },
+  {
+    "section": "BIZ",
+    "question": "Which technique of negotiation makes use of a ‘divide and conquer’ process of threats and alliances to overcome opposition?",
+    "options": ["Salami technique", "Quivering Pen technique", "Vice Technique", "Nibble Technique"],
+    "answer": "Salami technique"
+  },
+  {
+    "section": "BIZ",
+    "question": "Which acronym is related to GOAL setting?",
+    "options": [
+      "ED (Tell me, explain to me, describe to me)",
+      "KISS (Keep it simple, stupid)",
+      "SMART (Specific, measurable, attainable, realistic, time-bound)",
+      "WIIFM (What’s in it for me)"
+    ],
+    "answer": "SMART (Specific, measurable, attainable, realistic, time-bound)"
+  },
+  {
+    "section": "BIZ",
+    "question": "Some of the following are ways that can be used to improve your creativity, except a few. Identify the exceptions. Select all that apply.",
+    "options": [
+      "Discipline yourself to think laterally",
+      "Embrace mistakes",
+      "Conduct brainstorming sessions",
+      "Concentrate intensely on the task at hand",
+      "Stick to the traditional set"
+    ],
+    "answer": ["Embrace mistakes", "Conduct brainstorming sessions"]
+  },
+  {
+    "section": "BIZ",
+    "question": "When resolving an incident, what kind of decision-making skills do operations teams (application and infrastructure) adopt in addition to business impact?",
+    "options": ["Risk assessment", "Fact-based quality", "Monetary impact", "Time-bound decision"],
+    "answer": "Time-bound decision"
+  },
+  {
+    "section": "BIZ",
+    "question": "Linda, a client partner from France, is having a discussion with the project team in India. Linda finds it uncomfortable when they speak in their regional language amongst themselves. She feels a bit lost. What can the team do differently?",
+    "options": [
+      "Continue speaking in their regional language as it’s more comfortable",
+      "Assign a translator to Linda",
+      "Stress the usage of a common language that is English among team members",
+      "Ask Linda to learn some regional words"
+    ],
+    "answer": "Stress the usage of a common language that is English among team members"
+  },
+  {
+    "section": "BIZ",
+    "question": "Emily’s team has been restructured with associates from different parts of the country. Every member has certain stereotypes about the others. What steps should the team take to resolve stereotyping?",
+    "options": [
+      "Encourage people to keep their biases to themselves",
+      "Ignore the stereotypes",
+      "Identify and unlearn preconceived concepts, then relearn them neutrally",
+      "Separate team members with strong stereotypes"
+    ],
+    "answer": "Identify and unlearn preconceived concepts, then relearn them neutrally"
+  },
+  {
+    "section": "BIZ",
+    "question": "You received the project requirements from the client but are unclear about a certain requirement. What is the right way to respond?",
+    "options": [
+      "Guess and proceed with the work",
+      "Ask a teammate to handle it",
+      "Send an email to the client keeping your manager in the loop",
+      "Ignore and move on"
+    ],
+    "answer": "Send an email to the client keeping your manager in the loop"
+  },
+  {
+    "section": "BIZ",
+    "question": "Emily wants to draft an email to a client after the team delivered a network application late, which was supposed to be done earlier. How should Emily start the email?",
+    "options": [
+      "Thank the client for their patience",
+      "Apologize to the client for not meeting expectations",
+      "Explain the reasons for the delay immediately",
+      "Ignore the issue and move to technical details"
+    ],
+    "answer": "Apologize to the client for not meeting expectations"
+  },
+  {
+    "section": "BIZ",
+    "question": "Annie wore a saree to work with big accessories and flowers in her hair. Her makeup was minimal. Which of the following statements is correct?",
+    "options": [
+      "She should not have worn a saree as it is not formal wear",
+      "Wearing ethnic wear shows her cultural pride",
+      "As long as makeup is minimal, it is acceptable",
+      "Her dress and accessories are appropriate for the office"
+    ],
+    "answer": "She should not have worn a saree as it is not formal wear"
   }
+
 ];
 
