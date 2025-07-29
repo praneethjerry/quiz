@@ -1,4 +1,3 @@
-<!-- learn.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +17,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
     }
 
     .top-bar h1 {
@@ -32,10 +32,47 @@
       cursor: pointer;
     }
 
+    .special-quiz-btn {
+      margin-right: 10px;
+      background: white;
+      color: #007acc;
+      border: 2px solid #007acc;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .special-quiz-btn:hover {
+      background: #007acc;
+      color: white;
+    }
+
     .container {
       max-width: 900px;
       margin: auto;
       padding: 20px;
+    }
+
+    .section-buttons {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .section-buttons button {
+      margin: 5px;
+      padding: 8px 16px;
+      background-color: #007acc;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .section-buttons button:hover {
+      background-color: #005f99;
     }
 
     .section-title {
@@ -82,29 +119,30 @@
     }
   </style>
 </head>
-<div class="top-bar">
-  <div>
-    <button onclick="window.location.href='trigger.html'" style="margin-right: 10px; background: white; color: #007acc; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer;">
-      Special Quiz
-    </button>
-    <h1>Learning Page</h1>
+<body>
+  <div class="top-bar">
+    <div style="display: flex; align-items: center;">
+      <button class="special-quiz-btn" onclick="window.location.href='trigger.html'">Special Quiz</button>
+      <h1>Learning Page</h1>
+    </div>
+    <span class="quiz-link" onclick="window.location.href='index.html'">Go to Quiz Page</span>
   </div>
-  <span class="quiz-link" onclick="window.location.href='index.html'">Go to Quiz Page</span>
-</div>
 
+  <div class="section-buttons" id="sectionButtons"></div>
   <div class="container" id="learnContainer"></div>
 
   <script src="questions.js"></script>
   <script>
     const learnContainer = document.getElementById("learnContainer");
+    const sectionButtonsDiv = document.getElementById("sectionButtons");
 
     const grouped = {
       Java: [],
       SQL: [],
       Unix: [],
       UI: [],
-      PLSQL: []
-    
+      PLSQL: [],
+      BIZ: []
     };
 
     for (const q of questions) {
@@ -113,13 +151,27 @@
       }
     }
 
+    // Create buttons
+    Object.keys(grouped).forEach(section => {
+      const btn = document.createElement("button");
+      btn.textContent = section;
+      btn.onclick = () => showOnlySection(section);
+      sectionButtonsDiv.appendChild(btn);
+    });
+
+    // Render all questions (grouped by section)
+    const sectionBlocks = {};
     for (const [section, qList] of Object.entries(grouped)) {
+      const sectionWrapper = document.createElement("div");
+      sectionWrapper.className = "section-wrapper";
+      sectionWrapper.id = "section-" + section;
+
       const sectionTitle = document.createElement("div");
       sectionTitle.className = "section-title";
       sectionTitle.textContent = section;
-      learnContainer.appendChild(sectionTitle);
+      sectionWrapper.appendChild(sectionTitle);
 
-      qList.forEach((q, i) => {
+      qList.forEach((q) => {
         const block = document.createElement("div");
         block.className = "question-block";
 
@@ -143,8 +195,18 @@
         ans.textContent = "Correct Answer: " + q.answer;
         block.appendChild(ans);
 
-        learnContainer.appendChild(block);
+        sectionWrapper.appendChild(block);
       });
+
+      learnContainer.appendChild(sectionWrapper);
+      sectionBlocks[section] = sectionWrapper;
+    }
+
+    function showOnlySection(section) {
+      for (const key in sectionBlocks) {
+        sectionBlocks[key].style.display = (key === section) ? "block" : "none";
+      }
+      sectionBlocks[section].scrollIntoView({ behavior: "smooth" });
     }
   </script>
 </body>
