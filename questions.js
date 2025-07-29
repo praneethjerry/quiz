@@ -973,7 +973,7 @@ const questions = [
     "section": "Java",
     "question": "If a package name contains more than one word, the words must be separated by...",
     "options": ["Comma", "Dot", "Hyphen", "underscore"],
-    "answer": "underscore"
+    "answer": "Dot"
   },
   {
     "section": "Java",
