@@ -596,10 +596,10 @@
         .addEventListener('click', calculateScore);
       
       // Add click handler for learning page button
-      document.getElementById('learningPageBtn')
-        .addEventListener('click', () => {
-          alert('Learning page would open here. In a real implementation, this would navigate to learn.html');
-        });
+     document.getElementById('learningPageBtn')
+  .addEventListener('click', () => {
+    window.location.href = 'learn.html';
+  });
     });
   </script>
 </body>
